@@ -47,7 +47,7 @@ class Home extends Nullstack {
         </article>
         <aside>
           <Link href="https://nullstack.app/pt-br/waifu">
-            <img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" />
+            {/* <img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" /> */}
           </Link>
         </aside>
       </section>

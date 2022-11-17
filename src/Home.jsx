@@ -22,9 +22,9 @@ class Home extends Nullstack {
     return (
       <section>
         <article>
-          <Link href="https://nullstack.app/pt-br">
+          {/* <Link href="https://nullstack.app/pt-br">
             <Logo height={60} light />
-          </Link>
+          </Link> */}
           <h1> {project.name} </h1>
           <p> {greeting} </p>
          

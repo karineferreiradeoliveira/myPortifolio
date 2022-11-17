@@ -36,8 +36,8 @@ class Home extends Nullstack {
             </li>
 
             <li>
-              <Link href="https://github.com/karineferreiradeoliveira">
-                🎉 Meu Github 
+              <Link href="https://www.linkedin.com/in/karinedeoliveira/">
+                🎉 Meu Linkedin
               </Link>
             </li>
             

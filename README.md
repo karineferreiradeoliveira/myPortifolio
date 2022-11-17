@@ -1,3 +1,3 @@
 # myPortifolio
 Aqui construirei meu portifólio
-https://myportifolio2.vercel.app/
+https://portifolio-karineoliveira.vercel.app/

@@ -26,3 +26,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Learn more about Nullstack
 
 [Read the documentation](https://nullstack.app/documentation)
+
+Online in: https://realkarine.vercel.app/

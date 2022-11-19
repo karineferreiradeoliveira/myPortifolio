@@ -42,12 +42,12 @@ class Home extends Nullstack {
             </li>
             
             <li>
-              <Link href="https://www.linkedin.com/in/karinedeoliveira/">
+              <Link href="https://www.twitch.tv/devkarine">
               <i class="ph-twitch-logo"></i> Twitch
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com/in/karinedeoliveira/">
+              <Link href="https://twitter.com/realkarine">
               <i class="ph-twitter-logo"></i> Twitter
               </Link>
             </li>

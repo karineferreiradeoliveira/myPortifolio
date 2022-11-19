@@ -18,7 +18,9 @@ a {
   color: #f15d9f;
   
 }
+
 li{
+  align-items: center;
   padding:20px 30px;
   background-color: #3d1266;
   margin: 10px 0;

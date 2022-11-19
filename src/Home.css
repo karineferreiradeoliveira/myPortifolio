@@ -22,6 +22,7 @@ article>*+* {
 }
 
 article h1 {
+  font-size: 4rem;
   font-family: 'Crete Round', serif;
   letter-spacing: 0.1em;
 }

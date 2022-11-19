@@ -16,6 +16,7 @@ class Application extends Nullstack {
         <link
           href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
           rel="stylesheet" />
+        <script src="https://unpkg.com/phosphor-icons"></script>
       </head>
     )
   }

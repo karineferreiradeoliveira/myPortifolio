@@ -31,16 +31,26 @@ class Home extends Nullstack {
           <ul>
             <li>
               <Link href="https://github.com/karineferreiradeoliveira">
-                🎉 Meu Github 
+              <i class="ph-github-logo"></i> Github 
               </Link>
             </li>
 
             <li>
               <Link href="https://www.linkedin.com/in/karinedeoliveira/">
-                🎉 Meu Linkedin
+              <i class="ph-linkedin-logo"></i> Linkedin
               </Link>
             </li>
             
+            <li>
+              <Link href="https://www.linkedin.com/in/karinedeoliveira/">
+              <i class="ph-twitch-logo"></i> Twitch
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.linkedin.com/in/karinedeoliveira/">
+              <i class="ph-twitter-logo"></i> Twitter
+              </Link>
+            </li>
           </ul>
           
           

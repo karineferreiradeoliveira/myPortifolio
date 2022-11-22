@@ -1,6 +1,5 @@
 import Nullstack from 'nullstack';
 import Logo from 'nullstack/logo';
-// import Counter from './Counter';
 import './Home.css';
 
 class Home extends Nullstack {
@@ -22,9 +21,6 @@ class Home extends Nullstack {
     return (
       <section>
         <article>
-          {/* <Link href="https://nullstack.app/pt-br">
-            <Logo height={60} light />
-          </Link> */}
           <h1> {project.name} </h1>
           <p> {greeting} </p>
          
@@ -57,7 +53,7 @@ class Home extends Nullstack {
         </article>
         <aside>
           <Link href="https://nullstack.app/pt-br/waifu">
-            {/* <img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" /> */}
+            {/* {<img src="/nulla-chan.webp" alt="Nulla-Chan: waifu oficial do Nullstack" /> } */}
           </Link>
         </aside>
       </section>

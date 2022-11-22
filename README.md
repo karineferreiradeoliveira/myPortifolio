@@ -11,7 +11,7 @@ Install the dependencies:
 Copy the environment sample to a .env file
 
 ```sh
-NULLSTACK_PROJECT_NAME="[dev] Myportifolio"
+NULLSTACK_PROJECT_NAME="karine Oliveira"
 NULLSTACK_PROJECT_DOMAIN="localhost"
 NULLSTACK_PROJECT_COLOR="#D22365"
 NULLSTACK_SERVER_PORT="3000"

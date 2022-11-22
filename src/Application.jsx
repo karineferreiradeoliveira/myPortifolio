@@ -14,8 +14,10 @@ class Application extends Nullstack {
         <link
           href="https://fonts.gstatic.com" rel="preconnect" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
-          rel="stylesheet" />
+          // href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap"
+          // rel="stylesheet" />
+
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet"/>
         <script src="https://unpkg.com/phosphor-icons"></script>
       </head>
     )

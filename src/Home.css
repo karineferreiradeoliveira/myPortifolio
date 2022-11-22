@@ -6,8 +6,8 @@ section {
   display: flex;
   align-items: center;
   padding: 1.5em;
-  border: 1px solid ;
-}
+  
+ }
 
 aside {
   width: 100%;
@@ -24,8 +24,9 @@ article>*+* {
 
 article h1 {
   font-size: 4rem;
-  font-family: 'Crete Round', serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0.1em;
+  line-height: 1.2;
 }
 
 

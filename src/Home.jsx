@@ -31,24 +31,24 @@ class Home extends Nullstack {
           <ul>
             <li>
               <Link href="https://github.com/karineferreiradeoliveira">
-              <i class="ph-github-logo"></i> Github 
+              <i class="ph-github-logo"></i> 
               </Link>
             </li>
 
             <li>
               <Link href="https://www.linkedin.com/in/karinedeoliveira/">
-              <i class="ph-linkedin-logo"></i> Linkedin
+              <i class="ph-linkedin-logo"></i> 
               </Link>
             </li>
             
             <li>
               <Link href="https://www.twitch.tv/devkarine">
-              <i class="ph-twitch-logo"></i> Twitch
+              <i class="ph-twitch-logo"></i> 
               </Link>
             </li>
             <li>
               <Link href="https://twitter.com/realkarine">
-              <i class="ph-twitter-logo"></i> Twitter
+              <i class="ph-twitter-logo"></i> 
               </Link>
             </li>
           </ul>

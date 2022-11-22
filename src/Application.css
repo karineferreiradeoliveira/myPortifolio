@@ -13,20 +13,23 @@ body {
   font-size: 1.5rem;
 }
 
+li {
+  display: inline;
+  width: 100%;
+  text-align: center;
+}
 a {
   font-size: 1.8rem;
   color: #f15d9f;
+  /* background-color: #3d1266; */
   
-}
-
-li{
-  align-items: center;
-  padding:20px 30px;
-  background-color: #3d1266;
-  margin: 10px 0;
   border-radius: 4px;
 }
+
+
 i {
-  text-align: center;
-  padding: 5px;
+  /* text-align: center; */
+  padding: 1rem;
+  margin: 0 5px;
+  background-color: #3d1266;;
 }

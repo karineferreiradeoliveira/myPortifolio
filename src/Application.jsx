@@ -1,7 +1,8 @@
 import Nullstack from 'nullstack';
-import './Application.css';
+// import './Application.css';
 import Home from './Home';
 import Formulario from './component/Formulario';
+import Items from './component/Items';
 
 class Application extends Nullstack {
 
@@ -27,6 +28,7 @@ class Application extends Nullstack {
         <Head />
         <Home route="/" greeting="Bem vindo aos meus links!" />
         <Formulario route="/formulario" dica="O bagulho é louco!"/>
+        <Items route="/items" items="bla bla"/>
       </body>
     )
   }

@@ -19,30 +19,30 @@ class Home extends Nullstack {
 
   render({ project, greeting }) {
     return (
-      <section>
+      <section class="main">
         <article>
-          <h1> {project.name} </h1>
+          <h1 class="titulo-portifolio"> {project.name} </h1>
           <p> {greeting} </p>
          
-          <ul>
-            <li>
+          <ul class="redes">
+            <li class="icon-rede">
               <Link href="https://github.com/karineferreiradeoliveira">
               <i class="ph-github-logo"></i> 
               </Link>
             </li>
 
-            <li>
+            <li class="icon-rede">
               <Link href="https://www.linkedin.com/in/karinedeoliveira/">
               <i class="ph-linkedin-logo"></i> 
               </Link>
             </li>
             
-            <li>
+            <li class="icon-rede">
               <Link href="https://www.twitch.tv/devkarine">
               <i class="ph-twitch-logo"></i> 
               </Link>
             </li>
-            <li>
+            <li class="icon-rede">
               <Link href="https://twitter.com/realkarine">
               <i class="ph-twitter-logo"></i> 
               </Link>

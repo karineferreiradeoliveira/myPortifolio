@@ -4,19 +4,21 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  background-color: #240244;
 }
 
 body {
-  background-color: #240244;
+  
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
 }
 
-li {
+.redes {
   display: inline;
   width: 100%;
   text-align: center;
+  background-color: #240244;
 }
 a {
   font-size: 1.8rem;

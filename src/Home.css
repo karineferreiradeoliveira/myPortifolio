@@ -1,4 +1,4 @@
-section {
+.main {
   width: 100%;
   max-width: 60rem;
   min-height: 100vh;
@@ -6,7 +6,7 @@ section {
   display: flex;
   align-items: center;
   padding: 1.5em;
-  
+  background-color:#d8d8ed ;
  }
 
 aside {
@@ -15,6 +15,7 @@ aside {
 
 article {
   width: 100%;
+  background-color: aquamarine;
 }
 
 article>*+* {
@@ -22,24 +23,29 @@ article>*+* {
   display: block;
 }
 
-article h1 {
+.titulo-portifolio {
+  
   font-size: 4rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.1em;
   line-height: 1.2;
 }
 
-
-article li a {
+.redes {
+  background-color: aqua;
+ 
+}
+.icon-rede {
+  background-color: aqua;
   display: inline-block;
   line-height: 1.25rem;
   text-align: center;
   
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 @media (max-width: 768px) {
   section {

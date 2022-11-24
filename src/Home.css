@@ -1,52 +1,85 @@
+
+
+body {
+  background-color: #240244;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+ 
+  
+}
 .main {
+  display: flex;
   width: 100%;
   max-width: 60rem;
   min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
   padding: 1.5em;
-  background-color:#d8d8ed ;
+ 
  }
 
 aside {
   width: 100%;
-}
-
-article {
+} 
+.conteudo{
+  flex-direction: column;
   width: 100%;
-  background-color: aquamarine;
-}
+  max-width: 400px;
+} 
 
-article>*+* {
+.conteudo>*+* {
   margin-top: 1em;
-  display: block;
+  /* display: block; */
 }
 
 .titulo-portifolio {
-  
   font-size: 4rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.1em;
   line-height: 1.2;
-}
-
-.redes {
-  background-color: aqua;
- 
-}
-.icon-rede {
-  background-color: aqua;
-  display: inline-block;
-  line-height: 1.25rem;
-  text-align: center;
   
 }
 
-/* img {
-  width: 100%;
-} */
+.subtitulo {
+  padding: 5px 20px;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
 
+.redes {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #240244;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+
+.li-redes {
+  all: unset;
+  padding: 15px;
+  background-color: crimson;
+  margin-right: auto;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.li-redes:hover {
+  background-color: rgb(166, 17, 47);
+}
+.li-redes a {
+  text-decoration: none;
+  
+}
+
+
+.icon {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   section {
     flex-wrap: wrap;

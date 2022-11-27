@@ -10,6 +10,7 @@ body {
 }
 .main {
   display: flex;
+  align-content: center;
   width: 100%;
   max-width: 60rem;
   min-height: 100vh;
@@ -21,28 +22,32 @@ body {
 aside {
   width: 100%;
 } 
-.conteudo{
+.conteudo-home{
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
   max-width: 400px;
+  
 } 
 
 .conteudo>*+* {
-  margin-top: 1em;
-  /* display: block; */
+  margin-top: 10em;
+  display: block;
 }
 
 .titulo-portifolio {
   font-size: 4rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.1em;
-  line-height: 1.2;
+  line-height: 1;
+  padding: 10px 20px;
   
 }
 
-.subtitulo {
-  padding: 5px 20px;
-  font-weight: 300;
+.subtitulo-portifolio {
+  padding: 10px 20px;
+  font-weight: 100;
   font-size: 1.5rem;
 }
 
@@ -58,9 +63,9 @@ aside {
 
 .li-redes {
   all: unset;
-  padding: 15px;
+  padding: 10px;
   background-color: crimson;
-  margin-right: auto;
+  margin-right: 1.5rem; 
   border-radius: 4px;
   transition: .4s;
 }
@@ -70,6 +75,8 @@ aside {
 }
 .li-redes a {
   text-decoration: none;
+  margin: 0;
+  
   
 }
 

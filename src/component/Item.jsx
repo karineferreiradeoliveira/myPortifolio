@@ -12,7 +12,7 @@ class item extends Nullstack {
           <p class="descricao">
             {item.descricao}
           </p>
-          <a class="btn" href="#">Comprar</a>
+          <a class="btn comprar" href="#">Comprar</a>
           <a class="btn" href="#">Adicionar aos Favoritos</a>
         </div>
     )

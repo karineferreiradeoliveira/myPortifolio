@@ -3,16 +3,22 @@ import "./Items.css";
 import Item from "./Item";
 const bdSimulado = [
   {
-  titulo: "Mouse Razer Deathadder Essential",
-  preco: 39,
-  descricao: "kjnsdlkjnf"
+  titulo: "Mouse Razer Deathadder",
+  preco: 39.99,
+  descricao: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit distinctio molestias accusantium reprehenderit cupiditate, error quia eligendi officia suscipit vitae facere similique dolorum itaque illo ea illum praesentium placeat."
 
-  },
-  {
+  }, {
     titulo: "Mouse Razer Deathadder ",
-    preco: 344,
-    descricao: "clorokina"
-    }]
+    preco: 99.99,
+    descricao: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit distinctio molestias accusantium reprehenderit cupiditate, error quia eligendi officia suscipit vitae facere similique dolorum itaque illo ea illum praesentium placeat."
+    },
+
+   {
+     titulo: "Mouse Razer Deathadder ",
+     preco: 79.99,
+     descricao: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum velit distinctio molestias accusantium reprehenderit cupiditate, error quia eligendi officia suscipit vitae facere similique dolorum itaque illo ea illum praesentium placeat."
+     }
+]
 
 class Items extends Nullstack {
 
@@ -30,7 +36,7 @@ class Items extends Nullstack {
   render(items) {
     return (
       
-      <main class="conteudo">
+      <main class="conteudo-items">
       <section class="grid">
       { this.items.map((item) => (
          <Item item={item}/> 

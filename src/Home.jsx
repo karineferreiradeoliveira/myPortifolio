@@ -20,9 +20,9 @@ class Home extends Nullstack {
   render({ project, greeting }) {
     return (
       <section class="main">
-        <article class="conteudo">
+        <article class="conteudo-home">
           <h1 class="titulo-portifolio"> {project.name} </h1>
-          <p class="subtitulo"> {greeting} </p>
+          <p class="subtitulo-portifolio"> {greeting} </p>
          
           { <ul class="redes">
             <li class="li-redes">

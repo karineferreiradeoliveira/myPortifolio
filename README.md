@@ -28,3 +28,5 @@ Open [http:// to view it in the browser.
 [Read the documentation](https://nullstack.app/documentation)
 
 Online in: https://realkarine.vercel.app/
+
+Usei esse framework primiero que em qualquer um outro, não entendia bem o que estava fazendo, mas foi o que deu. Depois disso fui estudar react e hj estou trabalhando com NextJs. Quando amadurecer mais volto aqui.
